@@ -311,6 +311,37 @@ tr.closed td.id, tr.closed td.subject {
   text-decoration: line-through;
 }
 
+/* チケット一覧で終了したチケットは灰色で表示する */
+tr.closed a {
+  background: #DCDCDC
+}
+
+tr.odd.closed, table.list tbody tr.odd.closed:hover {
+  color: #444444
+}
+
+tr.odd.closed {
+  background: #DCDCDC
+}
+
+
+tr.even.closed, table.list tbody tr.even.closed:hover {
+  color: #444444
+}
+
+
+tr.odd.closed td, tr.even.closed td {
+  border-color: #DCDCDC
+}
+
+tr.even.closed {
+  background: #DCDCDC
+}
+
+tr.closed a {
+  color: #444444
+}
+
 #watchers a.delete {
   opacity: 0.7
 }
