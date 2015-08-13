@@ -372,6 +372,40 @@ input[type="button"] {
   font: inherit;
 }
 
+select {
+    border: 0.5px solid #aaa;
+    border-radius: 3px 3px 3px 3px;
+    padding: 0 2px 0 3px;
+    background-color: #fff;
+    cursor: pointer;
+    background: url(../images/select.png) no-repeat right #fff;
+    background-size: 18px 16px;
+    text-indent: 0.01px;
+    text-overflow: "";
+    height: 22px;
+    box-sizing : border-box;
+    font-family: "Meiryo UI", sans-serif;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+select[multiple="multiple"] {
+	height: auto;
+	background: #fff;
+	padding: 0 5px 0 5px;
+}
+
+select:not([multiple='multiple']) {
+  border-radius: 3px 3px 3px 3px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  height: 22px;
+  padding: 0 5px 0 5px;
+}
+
 /* テキストボックスで等幅フォントを使用 */
 
 input[type="text"] {
