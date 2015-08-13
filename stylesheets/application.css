@@ -377,6 +377,11 @@ input[type="text"] {
   font: inherit;
 }
 
+input[type="checkbox"] {
+  height: 20px;
+  font: inherit;
+}
+
 textarea.wiki-edit {
   font-size: 14px;
   font-family: "Osaka-Mono", "MS Gothic", sans-serif;
