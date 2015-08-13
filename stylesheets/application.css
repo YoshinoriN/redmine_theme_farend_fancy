@@ -31,7 +31,7 @@ body {
 }
 
 h1, h2, h3, h4 {
-  font-family: "Meiryo UI", sans-serif;
+  font-family: Meiryo, "Meiryo UI", Verdana, sans-serif;
 }
 
 #header h1 {
