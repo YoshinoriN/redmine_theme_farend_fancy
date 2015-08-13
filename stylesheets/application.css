@@ -405,6 +405,14 @@ select:not([multiple='multiple']) {
   padding: 0 5px 0 5px;
 }
 
+input:focus,
+select:focus{
+  border: 1px
+  solid #a0d8ef;
+  background: #fafdff;
+}
+
+
 /* テキストボックスで等幅フォントを使用 */
 
 input[type="text"] {
