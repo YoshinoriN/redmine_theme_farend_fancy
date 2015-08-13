@@ -359,6 +359,10 @@ tr.closed a {
 /* submitボタンを押しやすく */
 input[type="submit"] {
   font-size: 12px;
+  border: 1.2px solid #696969;
+  border-radius: 1.5px 1.5px 1.5px 1.5px;
+  height: 25px;
+  font: inherit;
 }
 
 /* テキストボックスで等幅フォントを使用 */
@@ -729,7 +733,7 @@ div.projects.box > ul > li > a {
   margin-bottom: 1em;
   border-right: 1px solid #d7d7d7;
   border-bottom: 1px solid #d7d7d7;
-  border-left: 1px solid #d7d7d7;
+  border-left: 1px solid #d7d7d7;ｓ
   border-radius: 0 0 3px 3px / 0 0 3px 3px;
 }
 
